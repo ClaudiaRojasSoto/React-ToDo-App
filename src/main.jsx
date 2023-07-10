@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-
-import TodoApp from '@/components/TodoApp';
+import TodoApp from './components/TodoApp';
 
 import '@/styles/app.css';
 
@@ -13,5 +12,5 @@ root.render(
     <BrowserRouter>
       <TodoApp />
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

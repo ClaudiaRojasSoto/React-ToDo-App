@@ -1,8 +1,6 @@
-const NotMatch = () => {
-    return (
-      <div>
-        <p>Not found!</p>
-      </div>
-    );
-  };
-  export default NotMatch;
+const NotMatch = () => (
+  <div>
+    <p>Not found!</p>
+  </div>
+);
+export default NotMatch;

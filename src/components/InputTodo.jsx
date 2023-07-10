@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { useTodosContext } from '@/context/TodosContext';
+import React, { useState } from 'react';
 import { FaPlusCircle } from 'react-icons/fa';
+import { useTodosContext } from '../context/TodosContext';
 
 const InputTodo = () => {
   const [title, setTitle] = useState('');
@@ -10,6 +10,7 @@ const InputTodo = () => {
 
   const handleChange = (e) => {
     setTitle(e.target.value);
+    setMessage('');
   };
 
   const handleSubmit = (e) => {
@@ -19,7 +20,7 @@ const InputTodo = () => {
       setTitle('');
       setMessage('');
     } else {
-      setMessage('Please add item.');
+      setMessage('Please add an item.');
     }
   };
 
@@ -33,7 +34,7 @@ const InputTodo = () => {
           onChange={handleChange}
           className="input-text"
         />
-        <button className="input-submit">
+        <button type="submit" className="input-submit">
           <FaPlusCircle
             style={{
               color: '#5e5e5e',
@@ -47,4 +48,5 @@ const InputTodo = () => {
     </>
   );
 };
+
 export default InputTodo;

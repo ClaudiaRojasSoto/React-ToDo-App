@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import styles from '@/styles/Login.module.css';
-import { useAuthContext } from '@/context/AuthContext';
-import Header from '@/components/Header';
+import { useAuthContext } from '../context/AuthContext';
+import Header from '../components/Header';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -33,7 +33,7 @@ const Login = () => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
-          <button>Login</button>
+          <button type="button">Login</button>
         </form>
       </div>
     </div>
