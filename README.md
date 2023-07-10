@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 math\_magicians ](#-math_magicians-)
+- [📖 React-ToDo-App ](#-react-todo-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -28,7 +28,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 math_magicians <a name="about-project"></a>
+# 📖 React-ToDo-App <a name="about-project"></a>
 
 > "React-ToDo-App" This project is a to-do application developed using React. The application allows users to add, edit, delete, and mark their daily tasks as completed.
 
