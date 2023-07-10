@@ -15,11 +15,8 @@ const links = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const { user, logout } = useAuthContext();
-
   const ref = useRef();
-
   const navigate = useNavigate();
-
   const handleLogout = () => {
     logout();
     navigate('/login');
