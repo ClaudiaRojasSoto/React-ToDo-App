@@ -13,6 +13,9 @@
     "@vitejs/plugin-react": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.1",
+    "uuid": "^9.0.0",
     "vite": "^4.4.2"
   },
   "devDependencies": {
