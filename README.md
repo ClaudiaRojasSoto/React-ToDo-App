@@ -30,7 +30,7 @@
 
 # 📖 React-ToDo-App <a name="about-project"></a>
 
-> "React-ToDo-App" This project is a to-do application developed using React. The application allows users to add, edit, delete, and mark their daily tasks as completed.
+> "React-ToDo-App" It is a project that present a to-do application developed using React. The application allows users to add, edit, delete, and mark their daily tasks as completed.
 
 
 
