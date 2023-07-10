@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h1><b>math_magicians</b></h1>
+  <h1><b>React-ToDo-App</b></h1>
 
 </div>
 
@@ -30,7 +30,9 @@
 
 # 📖 math_magicians <a name="about-project"></a>
 
-> "math_magicians" is a project that allows me to showcase my web development skills and expertise in React and UI/UX design. With a focus on engaging interfaces, I demonstrate proficiency in various aspects including wireframing, component creation, event handling, and API integration. The project embodies intuitive design principles and seamless functionality, delivering a captivating user experience.
+> "React-ToDo-App" This project is a to-do application developed using React. The application allows users to add, edit, delete, and mark their daily tasks as completed.
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,13 +43,6 @@
     <ul>
       <li>This project use <a href="https://react.dev/">React</a></li>
     </ul>
-</details>
-
-<details>
-  <summary>HTML</summary>
-  <ul>
-    <li>This project use <a href="https://github.com/microverseinc/curriculum-html-css/blob/main/html5.md">HTML.</a></li>
-  </ul>
 </details>
 
 <details>
@@ -82,6 +77,7 @@
 -   **Modular Structure**
 -   **JavaScript Functionality**
 -   **Gitflow**
+-   **SPA**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,11 +97,11 @@
 
 > -Clone this repository to your local machine using:
 
->  git clone https://github.com/ClaudiaRojasSoto/math_magicians.git
+>  git clone https://github.com/ClaudiaRojasSoto/React-ToDo-App.git
 
 > -Navigate to the project folder:
 
-> cd math_magicians
+> cd React-ToDo-App
 
 > -Install the project dependencies:
 
@@ -120,20 +116,19 @@
 > The project follows the following folder and file structure:
 
 - /src: Contains the source files of the application.
-- /src/index.js: Main entry point of the JavaScript application.
-- /src/App.js: Top-level component of the application.
+- /src/main.jsx: Main entry point of the React application.
+- /src/App.jsx: Top-level component of the application.
 - /src/components: Directory for React components.
-- /src/components/Calculator.js: React component for the calculator.
-- /src/calculator.css: CSS file for the Calculator.js styles.
-- /src/App.css: CSS file for the App.js styles.
-- /src/index.css: CSS file for the index.js styles.
+- /src/context: Directory for React components.
+- /src/routes: Directory for React components.
+- /src/styles: CSS files for the React app
 - /public: Contains the public files and assets of the application.
-- /public/index.html: Base HTML file of the application.
+- /public/Contains the SVG icon from Vite.
 - /build: Contains the generated production files.
 
 ### Setup
 
-> Clone this repository to your desired folder: https://github.com/ClaudiaRojasSoto/math_magicians.git
+> Clone this repository to your desired folder: https://github.com/ClaudiaRojasSoto/React-ToDo-App.git
 
 ### Install
 
@@ -170,7 +165,7 @@
 
 > Contributions, issues, and feature requests are welcome!
 
-> Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/math_magicians/issues).
+> Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/React-ToDo-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,6 +189,6 @@
 
 ## 📝 License <a name="license"></a>
 
-> This project is [MIT](https://github.com/ClaudiaRojasSoto/math_magicians/blob/develop/MIT.md).
+> This project is [MIT](https://github.com/ClaudiaRojasSoto/React-ToDo-App/blob/develop/MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
