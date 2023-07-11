@@ -1,0 +1,18 @@
+.profile {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.iconsContainer {
+  margin-left: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content span {
+  margin-right: 15px;
+  margin-left: 5px;
+}
