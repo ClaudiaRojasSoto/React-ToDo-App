@@ -62,7 +62,6 @@ const TodoItem = ({ itemProp }) => {
       />
     </li>
   );
-  
 };
 
 TodoItem.propTypes = {
