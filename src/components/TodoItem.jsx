@@ -40,17 +40,17 @@ const TodoItem = ({ itemProp }) => {
           checked={itemProp.completed}
           onChange={() => handleChange(itemProp.id)}
         />
-        {user && (
-          <button type="button" onClick={handleEditing}>
-            <AiFillEdit style={{ color: '#5e5e5e', fontSize: '16px' }} />
-          </button>
-        )}
-        <button type="button" onClick={() => delTodo(itemProp.id)}>
-          <FaTrash style={{ color: '#5e5e5e', fontSize: '16px' }} />
-        </button>
         <span style={itemProp.completed ? completedStyle : null}>
           {itemProp.title}
         </span>
+        {user && (
+          <button type="button" className={styles.iconsContainer} onClick={handleEditing}>
+            <AiFillEdit style={{ color: '#5e5e5e', fontSize: '16px' }} />
+          </button>
+        )}
+        <button type="button" className={styles.iconsContainer} onClick={() => delTodo(itemProp.id)}>
+          <FaTrash style={{ color: '#5e5e5e', fontSize: '16px' }} />
+        </button>
       </div>
       <input
         type="text"
@@ -62,6 +62,7 @@ const TodoItem = ({ itemProp }) => {
       />
     </li>
   );
+  
 };
 
 TodoItem.propTypes = {
